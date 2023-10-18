@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Pinterest Darkmode",
+  "version": "1.0",
+  "description": "Dark mode for Pinterest.com",
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": "images/Pinterest-logo-dark.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "css": ["styles/styles.css"],
+      "matches": ["https://*.pinterest.com/*"]
+    }
+  ]
+}

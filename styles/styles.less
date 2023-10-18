@@ -1,0 +1,374 @@
+// COLORS
+@darkest: #121212;
+@dark-grey: #181818;
+@grey: #282828;
+@light-grey: #404040;
+@lightest-grey: #b3b3b3;
+//
+
+// ==================================================================================
+// FRONT PAGE - NOT LOGGED IN
+[data-test-id="unauth-header"] {
+  .urM {
+    background-color: @dark-grey;
+  }
+}
+[data-test-id="header-about-button"],
+[data-test-id="header-business-button"],
+[data-test-id="header-blog-button"] {
+  * {
+    color: white !important;
+  }
+}
+
+#fullpage-wrapper {
+  .urM {
+    background-color: @darkest;
+  }
+  .Hsu {
+    color: white;
+  }
+  [data-test-id="homepage-section-search-image-grid"] {
+    .urM {
+      background-color: white !important;
+    }
+    //  ^ kolor dymka na not logged in fp
+  }
+}
+
+[data-test-id="signup-default-modal"],
+[data-test-id="create-business-account-button"] {
+  background-color: @grey !important;
+  .urM {
+    background-color: transparent;
+  }
+  * {
+    color: white !important;
+  }
+  [data-test-id="registerForm"] {
+    .qJc {
+      background-color: @light-grey;
+    }
+    .O2T {
+      color: white !important;
+      // ^ kolor tekstu boxa rejestracji
+    }
+  }
+}
+.fp-scroller {
+  .O2T {
+    color: white;
+  }
+}
+[data-test-id="login-modal-default"] {
+  background-color: @grey !important;
+  .urM {
+    background-color: transparent;
+  }
+  * {
+    color: white !important;
+  }
+  [data-test-id="registerForm"] {
+    .qJc {
+      background-color: @light-grey;
+    }
+    .O2T {
+      color: white !important;
+      // ^ kolor tekstu boxa rejestracji
+    }
+  }
+}
+
+// ==================================================================================
+// EXPLORE PAGE
+
+// LOGGED IN
+[data-test-id="header"] {
+  [data-test-id="header-background"] {
+    background-color: @darkest;
+    [data-test-id="addPinButton"] {
+      a {
+        span {
+          color: white;
+        }
+      }
+    }
+    [data-test-id="button-container"] {
+      ._HI {
+        background-color: @light-grey;
+      }
+      svg {
+        color: white;
+      }
+    }
+    #searchBoxContainer {
+      ._HI {
+        background-color: @light-grey;
+      }
+      .urM {
+        background-color: @grey;
+      }
+      .O2T {
+        color: white;
+      }
+    }
+  }
+}
+.newsHubSidebarWrapper {
+  .urM {
+    background-color: @grey;
+  }
+  [data-test-id="news-hub-title"] {
+    .O2T {
+      color: white;
+    }
+  }
+  .scrollableList {
+    span {
+      color: white;
+    }
+  }
+}
+.appContent {
+  ._he {
+    .urM {
+      background-color: @grey;
+    }
+    font {
+      color: white;
+    }
+    [aria-label="Back to inbox"] {
+      .qJc {
+        background-color: @light-grey;
+      }
+    }
+    [data-test-id="contact-search-field"] {
+      input {
+        background-color: @light-grey;
+        .LJB {
+          border-color: transparent;
+        }
+        &::placeholder {
+          color: white;
+        }
+      }
+    }
+    [aria-label="inbox options overflow button"] {
+      svg {
+        color: white;
+      }
+    }
+    #contactSearch {
+      background-color: @light-grey;
+      .LJB {
+        border-color: transparent;
+      }
+      &::placeholder {
+        color: white;
+      }
+    }
+    [data-test-id="add-pin-to-conversation"] {
+      .R19 {
+        color: white;
+      }
+      .ExpandingTextArea__textArea {
+        background-color: @grey;
+        color: white;
+      }
+    }
+  }
+}
+
+[data-test-id="homefeed-feed"] {
+  background-color: @grey;
+  [data-test-id="pin"] {
+    .Wk9,
+    .O2T {
+      color: white;
+    }
+  }
+  [data-test-id="contentLayer"] {
+    .u97 {
+      background-color: @grey;
+      svg {
+        color: white;
+      }
+    }
+    [data-test-id="pinrep-source-link"] {
+      a {
+        background-color: @grey;
+        svg {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+// NOT LOGGED IN
+[data-test-id="unauth-header"] {
+  ._HI {
+    background-color: @light-grey;
+  }
+  .xuA {
+    * {
+      color: white !important;
+    }
+  }
+  [aria-label="Popover"] {
+    background-color: @light-grey;
+    * {
+      color: white !important;
+    }
+  }
+}
+.OpenTypeahead {
+  background: @grey !important;
+  .typeaheadName {
+    .darkText {
+      color: @lightest-grey;
+    }
+    .lightText {
+      color: white;
+    }
+    .label,
+    .subLabel {
+      color: @lightest-grey;
+    }
+  }
+  .titleItem {
+    .O2T {
+      color: white !important;
+    }
+  }
+}
+[data-layout-shift-boundary-id="PageContainer"] {
+  background-color: @dark-grey !important;
+  // kolor explore page
+  * {
+    color: white !important;
+    // kolor tekstu na ep
+  }
+  ._HI,
+  .gpV {
+    background-color: @grey;
+    // kolor baniek na ep (zmienic na jasniejszy?)
+  }
+  [data-test-id="best-idea-image"] {
+    [data-test-id="PinTypeIdentifier"] {
+      background-color: @dark-grey !important;
+      // kolor jednego z dymkow na obrazkach ep
+    }
+  }
+}
+[data-test-id="breadcrumbs-list"] {
+  * {
+    background-image: none !important;
+    // usuwa dziwny gradient z bokow jednego z naglowkow
+  }
+}
+[data-test-id="search-input"] {
+  color: white !important;
+}
+[data-test-id="bottom-right-upsell"] {
+  .O2T {
+    color: white !important;
+  }
+
+  background-color: @grey !important;
+
+  [data-test-id="tos"],
+  [data-test-id="privacy"],
+  [data-test-id="noticeAtCollection"] {
+    color: white !important;
+  }
+}
+// ==================================================================================
+// WATCH PAGE
+
+[data-test-id="videos-root-pages"] {
+  .qJc {
+    background-color: @grey;
+  }
+}
+[data-test-id="PinTypeIdentifier"] {
+  background-color: @grey !important;
+}
+[aria-label="Back"],
+[aria-label="Forward"] {
+  .u97 {
+    background-color: @grey !important;
+  }
+}
+// ==================================================================================
+// PIN PAGE
+[data-test-id="login-button"] {
+  button {
+    .YbY {
+      background-color: var(--g-colorGray100);
+      &:hover {
+        background-color: var(--g-colorGray100Hovered);
+      }
+    }
+  }
+}
+[data-test-id="signup-button"] {
+  button {
+    .YbY {
+      background-color: @lightest-grey !important;
+    }
+  }
+}
+[data-layout-shift-boundary-id="CloseupPageContainer"] {
+  // #mweb-unauth-container {
+  background-color: @darkest;
+  ._HI {
+    background-color: @light-grey;
+  }
+  [data-test-id="left-scroll-arrow"] {
+    background: linear-gradient(
+      to right,
+      @dark-grey 25%,
+      rgba(255, 255, 255, 0) 100%
+    ) !important;
+  }
+  [data-test-id="right-scroll-arrow"] {
+    background: linear-gradient(
+      to left,
+      @dark-grey 25%,
+      rgba(255, 255, 255, 0) 100%
+    ) !important;
+  }
+  .O2T,
+  .R19 {
+    color: white !important;
+  }
+}
+[data-test-id="back-button"] {
+  .u97 {
+    background-color: @light-grey;
+  }
+}
+[data-test-id="more-like-this-button"] {
+  .qJc {
+    background-color: @light-grey;
+  }
+}
+#comment-overflow-popover {
+  background-color: @light-grey;
+  ._HI {
+    background-color: @light-grey;
+  }
+  .O2T {
+    color: white;
+  }
+}
+
+// ==================================================================================
+// ABOUOT / POLICY PAGE
+.site {
+  * {
+    background-color: @light-grey !important;
+    color: white !important;
+  }
+}

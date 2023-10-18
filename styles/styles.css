@@ -1,0 +1,253 @@
+[data-test-id="unauth-header"] .urM {
+  background-color: #181818;
+}
+[data-test-id="header-about-button"] *,
+[data-test-id="header-business-button"] *,
+[data-test-id="header-blog-button"] * {
+  color: white !important;
+}
+#fullpage-wrapper .urM {
+  background-color: #121212;
+}
+#fullpage-wrapper .Hsu {
+  color: white;
+}
+#fullpage-wrapper [data-test-id="homepage-section-search-image-grid"] .urM {
+  background-color: white !important;
+}
+[data-test-id="signup-default-modal"],
+[data-test-id="create-business-account-button"] {
+  background-color: #282828 !important;
+}
+[data-test-id="signup-default-modal"] .urM,
+[data-test-id="create-business-account-button"] .urM {
+  background-color: transparent;
+}
+[data-test-id="signup-default-modal"] *,
+[data-test-id="create-business-account-button"] * {
+  color: white !important;
+}
+[data-test-id="signup-default-modal"] [data-test-id="registerForm"] .qJc,
+[data-test-id="create-business-account-button"] [data-test-id="registerForm"] .qJc {
+  background-color: #404040;
+}
+[data-test-id="signup-default-modal"] [data-test-id="registerForm"] .O2T,
+[data-test-id="create-business-account-button"] [data-test-id="registerForm"] .O2T {
+  color: white !important;
+}
+.fp-scroller .O2T {
+  color: white;
+}
+[data-test-id="login-modal-default"] {
+  background-color: #282828 !important;
+}
+[data-test-id="login-modal-default"] .urM {
+  background-color: transparent;
+}
+[data-test-id="login-modal-default"] * {
+  color: white !important;
+}
+[data-test-id="login-modal-default"] [data-test-id="registerForm"] .qJc {
+  background-color: #404040;
+}
+[data-test-id="login-modal-default"] [data-test-id="registerForm"] .O2T {
+  color: white !important;
+}
+[data-test-id="header"] [data-test-id="header-background"] {
+  background-color: #121212;
+}
+[data-test-id="header"] [data-test-id="header-background"] [data-test-id="addPinButton"] a span {
+  color: white;
+}
+[data-test-id="header"] [data-test-id="header-background"] [data-test-id="button-container"] ._HI {
+  background-color: #404040;
+}
+[data-test-id="header"] [data-test-id="header-background"] [data-test-id="button-container"] svg {
+  color: white;
+}
+[data-test-id="header"] [data-test-id="header-background"] #searchBoxContainer ._HI {
+  background-color: #404040;
+}
+[data-test-id="header"] [data-test-id="header-background"] #searchBoxContainer .urM {
+  background-color: #282828;
+}
+[data-test-id="header"] [data-test-id="header-background"] #searchBoxContainer .O2T {
+  color: white;
+}
+.newsHubSidebarWrapper .urM {
+  background-color: #282828;
+}
+.newsHubSidebarWrapper [data-test-id="news-hub-title"] .O2T {
+  color: white;
+}
+.newsHubSidebarWrapper .scrollableList span {
+  color: white;
+}
+.appContent ._he .urM {
+  background-color: #282828;
+}
+.appContent ._he font {
+  color: white;
+}
+.appContent ._he [aria-label="Back to inbox"] .qJc {
+  background-color: #404040;
+}
+.appContent ._he [data-test-id="contact-search-field"] input {
+  background-color: #404040;
+}
+.appContent ._he [data-test-id="contact-search-field"] input .LJB {
+  border-color: transparent;
+}
+.appContent ._he [data-test-id="contact-search-field"] input::placeholder {
+  color: white;
+}
+.appContent ._he [aria-label="inbox options overflow button"] svg {
+  color: white;
+}
+.appContent ._he #contactSearch {
+  background-color: #404040;
+}
+.appContent ._he #contactSearch .LJB {
+  border-color: transparent;
+}
+.appContent ._he #contactSearch::placeholder {
+  color: white;
+}
+.appContent ._he [data-test-id="add-pin-to-conversation"] .R19 {
+  color: white;
+}
+.appContent ._he [data-test-id="add-pin-to-conversation"] .ExpandingTextArea__textArea {
+  background-color: #282828;
+  color: white;
+}
+[data-test-id="homefeed-feed"] {
+  background-color: #282828;
+}
+[data-test-id="homefeed-feed"] [data-test-id="pin"] .Wk9,
+[data-test-id="homefeed-feed"] [data-test-id="pin"] .O2T {
+  color: white;
+}
+[data-test-id="homefeed-feed"] [data-test-id="contentLayer"] .u97 {
+  background-color: #282828;
+}
+[data-test-id="homefeed-feed"] [data-test-id="contentLayer"] .u97 svg {
+  color: white;
+}
+[data-test-id="homefeed-feed"] [data-test-id="contentLayer"] [data-test-id="pinrep-source-link"] a {
+  background-color: #282828;
+}
+[data-test-id="homefeed-feed"] [data-test-id="contentLayer"] [data-test-id="pinrep-source-link"] a svg {
+  color: white;
+}
+[data-test-id="unauth-header"] ._HI {
+  background-color: #404040;
+}
+[data-test-id="unauth-header"] .xuA * {
+  color: white !important;
+}
+[data-test-id="unauth-header"] [aria-label="Popover"] {
+  background-color: #404040;
+}
+[data-test-id="unauth-header"] [aria-label="Popover"] * {
+  color: white !important;
+}
+.OpenTypeahead {
+  background: #282828 !important;
+}
+.OpenTypeahead .typeaheadName .darkText {
+  color: #b3b3b3;
+}
+.OpenTypeahead .typeaheadName .lightText {
+  color: white;
+}
+.OpenTypeahead .typeaheadName .label,
+.OpenTypeahead .typeaheadName .subLabel {
+  color: #b3b3b3;
+}
+.OpenTypeahead .titleItem .O2T {
+  color: white !important;
+}
+[data-layout-shift-boundary-id="PageContainer"] {
+  background-color: #181818 !important;
+}
+[data-layout-shift-boundary-id="PageContainer"] * {
+  color: white !important;
+}
+[data-layout-shift-boundary-id="PageContainer"] ._HI,
+[data-layout-shift-boundary-id="PageContainer"] .gpV {
+  background-color: #282828;
+}
+[data-layout-shift-boundary-id="PageContainer"] [data-test-id="best-idea-image"] [data-test-id="PinTypeIdentifier"] {
+  background-color: #181818 !important;
+}
+[data-test-id="breadcrumbs-list"] * {
+  background-image: none !important;
+}
+[data-test-id="search-input"] {
+  color: white !important;
+}
+[data-test-id="bottom-right-upsell"] {
+  background-color: #282828 !important;
+}
+[data-test-id="bottom-right-upsell"] .O2T {
+  color: white !important;
+}
+[data-test-id="bottom-right-upsell"] [data-test-id="tos"],
+[data-test-id="bottom-right-upsell"] [data-test-id="privacy"],
+[data-test-id="bottom-right-upsell"] [data-test-id="noticeAtCollection"] {
+  color: white !important;
+}
+[data-test-id="videos-root-pages"] .qJc {
+  background-color: #282828;
+}
+[data-test-id="PinTypeIdentifier"] {
+  background-color: #282828 !important;
+}
+[aria-label="Back"] .u97,
+[aria-label="Forward"] .u97 {
+  background-color: #282828 !important;
+}
+[data-test-id="login-button"] button .YbY {
+  background-color: var(--g-colorGray100);
+}
+[data-test-id="login-button"] button .YbY:hover {
+  background-color: var(--g-colorGray100Hovered);
+}
+[data-test-id="signup-button"] button .YbY {
+  background-color: #b3b3b3 !important;
+}
+[data-layout-shift-boundary-id="CloseupPageContainer"] {
+  background-color: #121212;
+}
+[data-layout-shift-boundary-id="CloseupPageContainer"] ._HI {
+  background-color: #404040;
+}
+[data-layout-shift-boundary-id="CloseupPageContainer"] [data-test-id="left-scroll-arrow"] {
+  background: linear-gradient(to right, #181818 25%, rgba(255, 255, 255, 0) 100%) !important;
+}
+[data-layout-shift-boundary-id="CloseupPageContainer"] [data-test-id="right-scroll-arrow"] {
+  background: linear-gradient(to left, #181818 25%, rgba(255, 255, 255, 0) 100%) !important;
+}
+[data-layout-shift-boundary-id="CloseupPageContainer"] .O2T,
+[data-layout-shift-boundary-id="CloseupPageContainer"] .R19 {
+  color: white !important;
+}
+[data-test-id="back-button"] .u97 {
+  background-color: #404040;
+}
+[data-test-id="more-like-this-button"] .qJc {
+  background-color: #404040;
+}
+#comment-overflow-popover {
+  background-color: #404040;
+}
+#comment-overflow-popover ._HI {
+  background-color: #404040;
+}
+#comment-overflow-popover .O2T {
+  color: white;
+}
+.site * {
+  background-color: #404040 !important;
+  color: white !important;
+}
